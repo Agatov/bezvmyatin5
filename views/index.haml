@@ -1,0 +1,138 @@
+%section.header
+  .wrapper
+    .row
+      .span2
+        .logo-text
+          ИП «VIPАВТОРЕМОНТ»
+          %br
+          ОГРН 1096230002098
+          %br
+          ИНН 6230067057
+
+      .span2.offset2
+        .n-auto-completed
+          Отремонтировано
+          %br
+          %span.n 2
+          %span.n 2
+          %span.n 8
+          %br
+          автомобилей
+
+      .span3.offset3
+        .phone
+          8 800 2000 600
+          -#.small
+            C 9:00 до 23:00. Звонок бесплатный.
+        .button Закажите звонок
+
+
+%section.descriptor
+  .wrapper
+    .row
+      .span12
+        %h1
+          Удаления вмятин без покраски
+          .small{style: 'color: #444;'}
+            Американским оборудованием Ultra Dent Tools
+
+
+%section.offer
+  .wrapper
+    .row
+      .span8
+        .offer-text
+          Мы вернем вам деньги, если результат вас не устроит.
+        .triggers
+          .trigger
+            100% Гарантия
+          .trigger
+            3 года опыта
+          .trigger.last.active
+            100% возврат средств
+      .span4
+        .order-form
+          .offer
+            Оставьте заявку и мы бесплатно рассчитаем стоимость выпрямления вмятин на вашем автомобиле
+
+          .form
+            %input{type: :text, placeholder: 'Введите ваше имя'}
+            %input{type: :text, placeholder: 'Введите ваш номер телефона'}
+            .order-button Оставить заявку
+
+
+%section.cases
+  .wrapper
+    .section-title
+      %h2 Как это выглядит?
+
+    .row
+      .span6
+        .case
+          %img{src: '/images/example-before.jpg', width: 475}
+          .case-description
+            До ремонта, на багажнике Range Rover была заметная вмятина, около 20 см в диаметре.
+      .span6.align-right
+        .case
+          %img{src: '/images/example-after.jpg', width: 475}
+          .case-description
+            После ремонта оборудованием Ultra Dent Tools от вмятины не осталось и следа.
+
+
+    .row{style: 'margin-top: 10px;'}
+      .span6
+        .case
+          %img{src: '/images/example2-before.jpg', width: 475}
+          .case-description
+            До ремонта, на капоте Mercedes не было живого места от вмятин после града.
+      .span6.align-right
+        .case
+          %img{src: '/images/example2-after.jpg', width: 475}
+          .case-description
+            После ремонта оборудованием Ultra Dent Tools капот выглядит как новый.
+
+
+%section.reviews
+  .wrapper
+    .section-title
+      %h2 Отзывы наших клиентов
+
+    .row
+      .span12
+        .video-block
+          %iframe{src: '//www.youtube.com/embed/hbWqTNsu7Wk?rel=0&enablejsapi=1',
+                      width: 960,
+                      height: 540, frameborder: 0}
+
+        .video-block
+          %iframe{src: '//www.youtube.com/embed/hbWqTNsu7Wk?rel=0&enablejsapi=1',
+                      width: 960,
+                      height: 540, frameborder: 0}
+
+        =  haml :_reviews
+
+
+
+
+%section.address
+  .section-title
+    %h2 Как нас найти
+    .small
+      Мы находимся по адресу: город Рязань, 4-ый проезд Добролюбова, дом 1.
+
+  #map
+
+
+%section.footer
+  .wrapper
+    .row
+      .span4
+        Сайт разработан в студии Абардача.
+      .span3.offset5
+        .phone 8 800 2000 600
+        .button Закажите звонок
+
+
+
+
+

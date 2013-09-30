@@ -1,0 +1,240 @@
+$red_color: #DA3610
+
+.logo-text
+  padding-top: 18px
+  font-size: 14px
+  line-height: 1.5
+
+.phone
+  font-family: 'ProximaNovaCond-Bold'
+  font-size: 32px
+  text-align: center
+  margin-bottom: 10px
+
+  .small
+    font-size: 16px
+
+
+.n-auto-completed
+  line-height: 1.5
+  text-align: center
+
+  .n
+    font-size: 32px
+    padding: 5px 7px
+    margin: 0px 1px
+    font-family: 'ProximaNovaCond-Bold'
+    color: #fff
+    background: $red_color
+    border-radius: 4px
+
+
+
+.button
+  width: 240px
+  height: 40px
+  line-height: 40px
+  text-align: center
+  color: #fff
+  background: $red_color
+  box-shadow: 0px 5px 0 #ae2f10
+  border: 1px solid #ae2f10
+  color: #fff
+  border-radius: 4px
+  font-family: 'ProximaNovaCond-Bold'
+
+
+section
+  width: 1200px
+  margin: 0px auto
+
+  &.header
+    background: #eee
+
+  &.descriptor
+    text-align: center
+    //color: #fff
+    //background: #04C9E9
+
+  &.offer
+    background: #fafafa url('/images/offer-bg.jpg') no-repeat
+    background-size: 100%
+
+  &.cases
+    margin-top: 50px
+    border-top: 5px solid #777
+    //background: #eee
+
+  &.reviews
+    //margin-top: 25px
+    //border-top: 8px solid $red_color
+    //background: #222
+    //color: #fff
+    border-top: 5px solid #777
+
+  &.address
+    margin-top: 25px
+    border-top: 5px solid #777
+
+
+.offer-text
+  color: #fff
+  text-shadow: 0 2px 2px rgba(0,0,0,0.7)
+  line-height: 1.5
+  font-size: 48px
+  font-family: 'ProximaNovaCond-Bold'
+
+
+
+input
+  width: 100%
+  height: 40px
+  line-height: 40px
+  margin-bottom: 20px
+  border: 1px solid #ddd
+  border-radius: 6px
+  font-family: 'ProximaNovaCond-Bold'
+  font-size: 16px
+  color: #000
+  padding: 0 15px
+
+
+.order-button
+  width: 100%
+  height: 40px
+  line-height: 40px
+  margin-bottom: 20px
+  border: 1px solid #ae2f10
+  border-radius: 6px
+  font-family: 'ProximaNovaCond-Bold'
+  font-size: 16px
+  background: $red_color
+  box-shadow: 0px 5px 0 #ae2f10
+  color: #fff
+  text-align: center
+
+
+
+
+.offer-text
+  height: 260px
+
+
+.triggers
+  &:after
+    clear: both
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+
+
+  .trigger
+    float: left
+    width: 190px
+    height: 60px
+    line-height: 60px
+    margin-right: 20px
+    border-radius: 4px
+    background: #fff
+    box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5)
+    color: #000
+    text-align: center
+    position: relative
+
+    &.last
+      margin-right: 20px
+
+  .active
+    &:before
+      content: ""
+      position: absolute
+      top: -25px
+      left: 70px
+      border-width: 0px 25px 25px 25px
+      border-style: solid
+      border-color: white transparent
+
+
+
+
+
+.order-form
+  background: #fff
+  width: 100%
+  height: 320px
+  //box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.7)
+  //border-radius: 4px
+
+  .offer
+    padding: 25px
+    text-align: center
+    line-height: 1.3
+    font-size: 16px
+    background: $red_color
+    color: #fff
+
+
+  .form
+    padding: 25px
+
+
+.case
+  position: relative
+
+  .case-description
+    position: absolute
+    left: 15px
+    bottom: 15px
+
+    width: 250px
+    height: 70px
+    padding: 10px
+
+    background: rgba(0,0,0,0.7)
+    color: #fff
+
+    line-height: 1.5
+
+    text-align: left
+
+
+
+.video-block
+  margin-bottom: 40px
+
+
+.review-block
+  width: 100%
+  position: relative
+  min-height: 120px
+  margin-bottom: 40px
+
+  .avatar
+    position: absolute
+    top: 0px
+    left: 0px
+    width: 100px
+    height: 100px
+    background: #666
+
+  .content
+    margin-left: 125px
+
+    .name
+      font-size: 18px
+      font-family: 'ProximaNovaCond-Bold'
+      margin-bottom: 15px
+
+    .text
+      font-size: 16px
+      line-height: 1.5
+
+
+#map
+  margin: 50px 0
+  width: 100%
+  height: 350px
+
+
