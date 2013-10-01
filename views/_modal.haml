@@ -1,0 +1,19 @@
+.modal-overlay
+.modal-dialog
+  .header
+    Оставьте свои контактные данные и наш менеджер вам позвонит.
+  .body
+    %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+    %input{type: :text, name: :phone, placeholder: 'Введите ваш телефон'}
+    %button.send-order
+      Заказать звонок
+
+.modal-thank-you
+  .header
+    Спасибо!
+  .body
+    Мы свяжемся с вами уже очень скоро.
+
+
+    %button#hide-thank-you
+      Я буду ждать!

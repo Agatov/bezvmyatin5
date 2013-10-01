@@ -14,17 +14,15 @@
           Отремонтировано
           %br
           %span.n 2
-          %span.n 2
+          %span.n 3
           %span.n 8
           %br
           автомобилей
 
       .span3.offset3
         .phone
-          8 800 2000 600
-          -#.small
-            C 9:00 до 23:00. Звонок бесплатный.
-        .button Закажите звонок
+          8 900 90 80 111
+        .button.order-button Закажите звонок
 
 
 %section.descriptor
@@ -42,23 +40,24 @@
     .row
       .span8
         .offer-text
-          Мы вернем вам деньги, если результат вас не устроит.
+          Мы вернем вам деньги, если мы не справимся.
         .triggers
           .trigger
-            100% Гарантия
-          .trigger
-            3 года опыта
+            100% гарантия результата
+          .trigger.one-line
+            3 года опыта в Рязани
           .trigger.last.active
-            100% возврат средств
+            100% гарантия возврата денег
       .span4
         .order-form
           .offer
-            Оставьте заявку и мы бесплатно рассчитаем стоимость выпрямления вмятин на вашем автомобиле
+            .strong Только до пятницы
+            При обращении, полировка одной детали в подарок!
 
           .form
-            %input{type: :text, placeholder: 'Введите ваше имя'}
-            %input{type: :text, placeholder: 'Введите ваш номер телефона'}
-            .order-button Оставить заявку
+            %input{type: :text, name: :username, placeholder: 'Введите ваше имя'}
+            %input{type: :text, name: :phone, placeholder: 'Введите ваш номер телефона'}
+            .button.send-order Оставить заявку
 
 
 %section.cases
@@ -114,7 +113,7 @@
 %section.reviews
   .wrapper
     .section-title
-      %h2 Как выпрямляются вмятины?
+      %h2 Как мы удаляем вмятины
 
     .row
       .span12
@@ -141,8 +140,10 @@
       .span4
         Сайт разработан в студии Абардача.
       .span3.offset5
-        .phone 8 800 2000 600
-        .button Закажите звонок
+        .phone 8 900 90 80 111
+        .button.order-button Закажите звонок
+
+=  haml :_modal
 
 
 

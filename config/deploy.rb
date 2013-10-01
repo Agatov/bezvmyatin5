@@ -1,7 +1,7 @@
 # Bundler tasks
 require 'bundler/capistrano'
 
-set :application, "bezvmyatin5"
+set :application, "bezvmyatin5.ru"
 set :repository,  "git@github.com:Agatov/bezvmyatin5.git"
 
 set :scm, :git
