@@ -40,15 +40,26 @@
     .row
       .span8
         .offer-text
-          Мы вернем вам деньги, 
-          %br
-          если мы не справимся.
+          .offer-slide.active{rel: 'first'}
+            Вмятина на машине?
+            %br
+            Попали под град?
+            %br
+            .small
+              Мы все исправим не повредив краску!
+          .offer-slide{rel: 'second'}
+            Мы удалили вмятины на 238 автомобилях
+          .offer-slide{rel: 'third'}
+            Мы вернем вам деньги,
+            %br
+            если мы не справимся
+
         .triggers
-          .trigger
+          .trigger.active{target: 'first'}
             100% гарантия результата
-          .trigger.one-line
+          .trigger.one-line{target: 'second'}
             3 года опыта в Рязани
-          .trigger.last.active
+          .trigger.last{target: 'third'}
             100% гарантия возврата денег
       .span4
         .order-form

@@ -1,6 +1,12 @@
 $ ->
 
 
+  $('.trigger').bind 'mouseover', ->
+    $('.trigger').removeClass('active')
+    $(@).addClass('active')
+
+    $('.offer-slide').removeClass('active')
+    $(".offer-slide[rel=#{$(@).attr('target')}").addClass('active')
 
 
 

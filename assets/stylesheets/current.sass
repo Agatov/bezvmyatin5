@@ -86,9 +86,17 @@ section
   color: #fff
   text-shadow: 0 2px 2px rgba(0,0,0,0.7)
   line-height: 1.5
-  font-size: 48px
+  font-size: 56px
   font-family: 'ProximaNovaCond-Bold'
 
+  .small
+    font-size: 36px
+
+.offer-slide
+  display: none
+
+  &.active
+    display: block
 
 
 input
@@ -152,6 +160,7 @@ input
     color: #000
     text-align: center
     position: relative
+    cursor: pointer
 
     &.one-line
       padding-top: 20px
