@@ -30,7 +30,7 @@ class Application < Sinatra::Base
 
   post '/orders.json' do
 
-    phones = %w(79037928959)
+    phones = %w(79209777500)
 
     message = "#{params[:order][:username]}. #{params[:order][:phone]}"
 
