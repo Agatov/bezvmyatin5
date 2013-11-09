@@ -37,7 +37,7 @@ $ ->
     else
       name.css 'border', '1px solid #ddd'
 
-    $.post '/orders', {'order[username]': name.val(), 'order[phone]': phone.val()}, (data) =>
+    $.post '/orders.json', {'order[username]': name.val(), 'order[phone]': phone.val()}, (data) =>
 
 
     # yaCounter22346590.reachGoal('new_order')
@@ -66,7 +66,7 @@ $ ->
 
   $(".submit").bind 'click', ->
 
-    $.post '/orders', {'order[username]': $('input[name=username]').val(), 'order[phone]': $('input[name=phone]').val()}, (data) =>
+    $.post '/orders.json', {'order[username]': $('input[name=username]').val(), 'order[phone]': $('input[name=phone]').val()}, (data) =>
       if data.status == 'ok'
         $('.order-form .success').show 'blind'
 
