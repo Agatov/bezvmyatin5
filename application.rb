@@ -43,7 +43,7 @@ class Application < Sinatra::Base
               password: 'avv6rqE',
               phone: phone.to_s,
               text: message,
-              sender_name: 'bezvmyatin5'
+              sender_name: '+79037928959'
           }
       )
     end
